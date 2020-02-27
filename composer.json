@@ -7,10 +7,17 @@
         "laravel"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "url": "https://github.com/konnector-dev/pda.git",
+            "type": "git"
+        }
+    ],
     "require": {
         "php": "^7.2",
         "doctrine/dbal": "^2.10",
         "fideloper/proxy": "^4.0",
+        "konnector-dev/pda": "^0.1.0",
         "laravel/framework": "6.*",
         "laravel/tinker": "^2.0",
         "rollbar/rollbar-laravel": "^5.0"
